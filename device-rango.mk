@@ -15,7 +15,7 @@ TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 SHIPPING_API_LEVEL := 34
 
 # Inherit from laguna
-include device/google/laguna/device-shipping-common.mk
+include device/google/laguna/common.mk
 
 # Fold extensions
 PRODUCT_SYSTEM_SERVER_JARS += \
