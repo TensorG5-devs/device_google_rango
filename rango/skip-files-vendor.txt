@@ -93,7 +93,6 @@ bin/i2ctransfer
 bin/iconv
 bin/id
 bin/ifconfig
-bin/init_thermal_config
 bin/inotifyd
 bin/insmod
 bin/install

@@ -74,10 +74,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
-# Thermal
-PRODUCT_PACKAGES += \
-    init_thermal_config
-
 # VINTF
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/vintf/manifest.xml
